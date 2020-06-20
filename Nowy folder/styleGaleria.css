@@ -1,0 +1,43 @@
+body{
+
+}
+
+.pojemnikZdjecia{
+    box-sizing: content-box;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.galeriaZdjec{
+    width: 230px;
+    padding: 20px;
+    border: 2px solid white;
+    box-shadow: -5px -5px 15px black;
+    box-sizing: content-box;
+    display: flex;
+    text-align: center;
+    opacity: 0.9;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transform: rotate(1deg);
+    transition: 0.3s all ease-in-out;
+}
+
+.galeriaZdjec img{
+    flex-basis: 100%;
+    width: 210px;
+}
+
+
+.galeriaZdjec:nth-child(even){
+    transform: rotate(-2deg) scale(0.9);
+}
+
+
+.galeriaZdjec:hover{
+    opacity: 1;
+    transition: 0.3s all;
+    transform: scale(2.0);
+}

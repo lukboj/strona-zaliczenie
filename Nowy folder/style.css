@@ -1,0 +1,367 @@
+
+
+@charset "UTF-8";
+
+html{
+    background-image: url(assets/łapki.jpg);
+    padding: 0;
+    height: 100px;
+}
+
+body{
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    margin: 0;
+}
+
+
+#kontener{
+    background: whitesmoke;
+    width: 100%;
+    margin: auto;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 16px;
+}
+
+
+#menuplaskie a {
+    text-decoration: none;
+    color: black;
+    background: whitesmoke;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 4px;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    box-shadow: -5px -5px 15px black;
+}
+
+#lab1{
+    position: fixed;
+    font-size: 72px;
+    background: white;
+}
+
+#lab2{
+    position: fixed;
+    font-size: 72px;
+    background: white;
+}
+
+#lab2:hover{
+    color: dimgrey;
+    transform: scale(1.4);
+}
+
+#lab1:hover{
+    color: dimgrey;
+    transform: scale(1.4);
+}
+
+#tlomenu{
+    position: fixed;
+    width: 100%;
+    background: darkgray;
+    box-shadow: -5px -5px 15px black;
+    text-align: justify;
+    transition: 0.1s all ease-in-out;
+    z-index: 999;
+}
+
+#ossm{
+    position: fixed;
+    visibility: hidden;
+    display: none;
+}
+
+#ossmsch{
+    visibility: collapse;
+    display: none;
+}
+
+#menuplaskien{
+    border-radius: 5px;
+    text-align: justify;
+    background: darkgray;
+    float: bottom;
+
+}
+
+#menuplaskie ul{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#menuplaskie li{
+    display: inline-flex;
+    padding: 10px;
+    font-size: 150%;
+    width: 23%;
+}
+
+.tekst  {
+    text-align: left;
+    margin: 0px;
+    text-decoration: none;
+    color:black;
+    text-emphasis: black;
+    font-size: 40px;
+    font-family: Droid serif, cursive;
+    text-shadow: 1px 0 0 #fff;
+}
+
+
+#naglowek{
+    text-align: center;
+    background: whitesmoke;
+    padding: 30px;
+    box-shadow: -5px -5px 15px black;
+}
+
+#naglowek h1{
+    font-size: 56px;
+    font-family: Droid serif, cursive;
+    text-shadow: 1px 0 0 #fff;
+}
+
+#dane{
+    padding: 20px;
+}
+
+#kontenerhori{
+    margin-top: 120px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background: whitesmoke;
+}
+
+#kontenervert{
+    background: darkgray;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#kontener2{
+    background: darkgray;
+    font-family: Droid serif, cursive;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+
+#srodek {
+    background: darkgray;
+    text-align: center;
+}
+
+#srodek ul{
+    list-style-type: none;
+}
+
+#srodek h4{
+    font-size: 20px;
+    text-shadow: 1px 0 0 #fff;
+}
+
+#srodek h4:hover{
+    transform: scale(1.3);
+}
+
+#srodek input{
+    font-size: 16px;
+}
+#srodek input:hover{
+    transform: scale(1.4);
+    font-size: 16px;
+}
+
+
+.quizbox:hover{
+   font-size: 24px;
+}
+
+#srodek h3{
+    font-size: 22px;
+}
+
+#srodek h2{
+    text-shadow: 1px 0 0 #fff;
+    font-size: 28px;
+    text-align: center;
+}
+
+#czyszczenie{
+display: none;
+}
+
+
+#menuplaskien a:hover{
+    color: darkgray;
+    background: whitesmoke;
+}
+
+#tresc {
+    border-radius: 5px;
+    padding: 20px;
+    background: whitesmoke;
+    min-height: 100px;
+    margin-bottom: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 10px;
+    box-shadow: -5px -5px 15px black;
+}
+
+#tresc p{
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-shadow: -5px -5px 15px black;
+}
+
+#stopka{
+    clear: both;
+    background: whitesmoke;
+    color: darkgray;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+.modul{
+    transition: 0.3s all ease-in-out;
+}
+
+hr{
+    border-color: black ;
+    background: black;
+}
+
+.linia:hover{
+    transition: 0.3s all;
+   transform: scale(1.1);
+}
+
+.modul:hover{
+    opacity: 1;
+    transition: 0.3s all;
+    transform: scale(1.02);
+}
+
+.modul:visited{
+    opacity: 1;
+    transition: 0.3s all;
+    transform: scale(1.02);
+}
+
+
+@media only screen and  (max-width: 1250px) {
+
+    #tlomenu{
+        visibility: collapse;
+    }
+
+    #menuplaskie li{
+        width: 100%;
+        padding: 0px;
+        font-size: 100%;
+    }
+
+    #menuplaskie ul{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    #menuplaskien{
+        margin-top: 40px;
+        text-align: justify;
+        background: #d4d9de;
+        margin-left: 5px;
+        float: bottom;
+    }
+
+    #ossm{
+        visibility: visible;
+        align-content: center;
+        position: fixed;
+    }
+
+}
+
+@media only screen and  (max-width: 600px){
+
+    html{
+        padding: 10px;
+    }
+
+    #tlomenu{
+        background: #a8afc9;
+        box-shadow: -5px -5px 15px dimgrey;
+        padding: 0px;
+        max-height: 10px;
+        margin: 0;
+    }
+
+    #menuplaskien{
+        margin-top: 0px;
+        background: #d4d9de;
+        margin-left: 0px;
+        margin-right: 0px;
+        vertical-align: center;
+    }
+
+    #menuplaskie li{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        list-style: none;
+        horiz-align: center;
+    }
+
+
+    #menuplaskie a {
+        display: block;
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+        width: 100%;
+        font-size: 120%;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #menuplaskie ul{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    #naglowek{
+        padding: 10px;
+        horiz-align: center;
+    }
+
+    #tresc{
+        padding-top: 10px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #kontener{
+        min-width: 320px;
+    }
+
+
+}
